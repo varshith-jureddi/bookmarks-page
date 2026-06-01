@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: monospace;
+    background-color: #f2f9fc;
+    color: darkslategrey;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    /* text-align: center; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: white;
+    max-width: 400px;
+    width: 90%;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+    text-align: center;
+}
+
+h1 {
+    /* font-size: 2.5rem; */
+    margin-bottom: 30px;
+}
+
+.input-con {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+    /* width: 100%; */
+    padding: 10px;
+    /* margin-bottom: 10px; */
+    border-radius: 6px;
+    /* color: red; */
+    border: 1px solid lightgrey;
+}
+
+
+button {
+    /* width: 100%; */
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #57bcdd;
+    color: #f2f9fc;
+    cursor: pointer;
+    margin-bottom: 5px;
+    transition: transform .3s;
+}
+
+button:hover {
+    background-color: #5fa3c0;
+}
+
+#list {
+    padding: 0;
+    list-style: none;
+}
+
+#list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    margin-bottom: 10px;
+}
+
+#list li a {
+    cursor: pointer;
+    color: #57bcdd;
+    text-decoration: none;
+}
+
+#list button {
+    background-color: indianred;
+    margin: 0;
+    padding: 5px 15px;
+    align-items: center;
+    /* color: #f2f9fc; */
+    /* border-radius: 5px; */
+    /* border: none; */
+    /* transition: transform .3s; */
+}
+
+#list button:hover {
+    background-color: #cd5252;
+}
